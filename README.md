@@ -34,6 +34,7 @@ OSX
 Congratulations your child theme up and running
 
 ### Use - to create a new custom post type
+(Assuming you've got CMB2 installed in your child theme folder)
 
 1. **Edit** your **functions.php** file
 2. Type **cinit** followed by **tab** (this is a Tab Trigger word ) 
