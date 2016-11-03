@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/*
+Theme Name: ${1:My Theme Name}
+Theme URI: http${2:s}://${3:$SP_THEME_URL}/
+Description: ${4:My Theme Description}
+Author: ${5:$SP_FULLNAME}
+Author URI: http${6:s}://${7:$SP_AUTHOR_URL}/
+Template: ${8:$SP_THEME_PARENT}
+Template Version: ${9:$SP_THEME_VERSION}
+*/
+]]></content>
+	<tabTrigger>child</tabTrigger>
+	<scope>source.css</scope>
+</snippet>
