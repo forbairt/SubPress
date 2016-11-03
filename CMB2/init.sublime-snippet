@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
+	require_once dirname( __FILE__ ) . '/cmb2/init.php';
+} else if ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
+	require_once dirname( __FILE__ ) . '/CMB2/init.php';
+} else {
+	die('CMB2 not found in theme folder');
+}
+]]></content>
+	<tabTrigger>cinit</tabTrigger>
+	<description>CMB2 Init (include)</description>
+	<scope>source.php</scope>
+</snippet>
