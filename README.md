@@ -35,8 +35,8 @@ Congratulations your child theme up and running
 
 ### Use - to create a new custom post type
 
-1. Edit your functions.php file
-2. Type cinit <tab> 
+1. **Edit** your **functions.php** file
+2. Type cinit <tab> (this is a Tab Trigger word ) 
 3. Type cnew <tab> and tab through the options filling them in as you go
 4. Type cmeta <tab> change the post type to your new custom post type name
 5. To add extra fields to your new Metabox type cimage <tab> and fill in the details
