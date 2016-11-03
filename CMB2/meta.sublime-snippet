@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+add_action( 'cmb2_admin_init', '${1:$SP_PREFIX}_${2:register_metabox}' );
+
+function ${1}_${2}() {
+	\$prefix = '${1:$SP_PREFIX}_';
+
+	\$${3:cmb} = new_cmb2_box( array(
+		'id'            => \$prefix . 'metabox',
+		'title'         => esc_html__( '${4:Metabox Title}', 'cmb2' ),
+		'object_types'  => array( '${5:post}', ), // Post type
+		// 'show_on_cb' => '${1}_show_if_front_page', // function should return a bool value
+		// 'context'    => 'normal',
+		// 'priority'   => 'high',
+		// 'show_names' => true, // Show field names on the left
+		// 'cmb_styles' => false, // false to disable the CMB stylesheet
+		// 'closed'     => true, // true to keep the metabox closed by default
+		// 'classes'    => 'extra-class', // Extra cmb2-wrap classes
+		// 'classes_cb' => '${1}_add_some_classes', // Add classes through a callback.
+	) );
+
+	//Add your fields here
+	//ctext cimage cimagelist cfile cfilelist cselect cradio carea cemail curl ctime}
+	${0}
+}
+]]></content>
+	<tabTrigger>cmeta</tabTrigger>
+	<description>CMB2 Add a new metabox</description>
+	<scope>source.php</scope>
+</snippet>
