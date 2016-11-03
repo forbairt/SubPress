@@ -12,13 +12,15 @@ This is my collection and how I use them
 ### Installation
 This is still very basic.
 
-OSX 
+OSX
+
 1. From the command line cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 2. Create a snippets folder
 3. Run git clone https://github.com/forbairt/SubPress.git
 
 ### Use - to setup a genesis child theme
-(Assuming you've WordPress up and running and Genesis installed) 
+(Assuming you've WordPress up and running and Genesis installed)
+
 1. Copy the file SubPress.tmPreferences.sample to SubPress.tmPreferences
 2. Edit the file and fill in the details
 3. Create a folder (for your child theme) in  wp-content/themes/ 
@@ -31,7 +33,8 @@ OSX
 
 Congratulations your child theme up and running
 
-## Use - to create a new custom post type
+### Use - to create a new custom post type
+
 1. Edit your functions.php file
 2. Type cinit <tab> 
 3. Type cnew <tab> and tab through the options filling them in as you go
