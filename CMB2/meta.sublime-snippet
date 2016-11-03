@@ -8,7 +8,7 @@ function ${1}_${2}() {
 	\$${3:cmb} = new_cmb2_box( array(
 		'id'            => \$prefix . 'metabox',
 		'title'         => esc_html__( '${4:Metabox Title}', 'cmb2' ),
-		'object_types'  => array( '${5:post}', ), // Post type
+		'object_types'  => array( '${5:post,page,}', ), // Post type
 		// 'show_on_cb' => '${1}_show_if_front_page', // function should return a bool value
 		// 'context'    => 'normal',
 		// 'priority'   => 'high',
