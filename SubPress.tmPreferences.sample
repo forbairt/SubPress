@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>SubPress Globals</string>
+    <key>scope</key>
+    <string></string>
+    <key>settings</key>
+    <dict>
+        <key>shellVariables</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>SP_FULLNAME</string>
+                <key>value</key>
+                <string><![CDATA[Firstname Lastname]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_EMAIL</string>
+                <key>value</key>
+                <string><![CDATA[Your Email Address]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_ORG_NAME</string>
+                <key>value</key>
+                <string><![CDATA[My Business]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_PREFIX</string>
+                <key>value</key>
+                <string><![CDATA[Your Initials with an underscore_]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_AUTHOR_URL</string>
+                <key>value</key>
+                <string><![CDATA[Your Website Domain no http]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_THEME_URL</string>
+                <key>value</key>
+                <string><![CDATA[Your Theme Domain no http]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_THEME_VERSION</string>
+                <key>value</key>
+                <string><![CDATA[1.0]]></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>SP_THEME_PARENT</string>
+                <key>value</key>
+                <string><![CDATA[Framework]]></string>
+            </dict>
+        </array>
+    </dict>
+    <key>uuid</key>
+    <string>72c25c20-6e2f-4ee5-a55f-70ef4342b9ab</string>
+</dict>
+</plist>
