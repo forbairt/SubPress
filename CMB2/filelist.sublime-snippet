@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+//File List field
+//id_id will contain the ID of the file
+\$${1:cmb}->add_field( array(
+'id'				=> \$prefix.'${2:image_name}',
+'name'				=> esc_html__( '${3:Title}', 'cmb2' ),
+'desc'				=> esc_html__( '${4:Upload an image or enter a URL}' )
+'type'				=> 'file_list',
+// Optional:
+'options' => array(
+    'url' => ${5:false}, // Hide the text input for the url
+),
+'text' => array(
+    'add_upload_files_text' => 'Replacement', // default: "Add or Upload Files"
+    'remove_image_text' => 'Replacement', // default: "Remove Image"
+    'file_text' => 'Replacement', // default: "File:"
+    'file_download_text' => 'Replacement', // default: "Download"
+    'remove_text' => 'Replacement', // default: "Remove"
+),
+) );
+]]></content>
+	<tabTrigger>cfilelist</tabTrigger>
+	<description>CMB2 Add a file field - duplicate image list field</description>
+	<scope>source.php</scope>
+</snippet>
