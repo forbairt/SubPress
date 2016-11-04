@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+//Radio field
+\$${1:cmb}->add_field( array(
+'id'				=> \$prefix.'${2:radio}',
+'name'				=> esc_html__( '${3:Radio button}', 'cmb2' ),
+'type'				=> 'radio', // radio / radio_inline
+'show_option_none'	=> false, // true for "None" or set to 'Nothing Selected'
+'options'			=> array(
+    '${4:1}' => __( '${5:Option Val 1}', 'cmb2' ),
+    '${6:2}' => __( '${7:Option Val 2}', 'cmb2' ),
+    '${8:3}' => __( '${9:Option Val 1}', 'cmb2' ),
+),
+) );
+]]></content>
+	<tabTrigger>cradio</tabTrigger>
+	<description>CMB2 Add a radio field</description>
+	<scope>source.php</scope>
+</snippet>
