@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+//Text field
+\$${1:cmb}->add_field( array(
+	'id'         => \$prefix.'${2:text_input}',
+	'name'       => esc_html__( '${3:Text field}', 'cmb2' ),
+	'desc'       => esc_html__( '${4:Description}', 'cmb2' ), // (optional)
+	'type'       => 'text',
+	//'show_on_cb' => 'prefix_hide_if_no_cats', // function should return a bool value
+	// 'sanitization_cb' => 'my_custom_sanitization', // custom sanitization callback parameter
+	// 'escape_cb'       => 'my_custom_escaping',  // custom escaping callback parameter
+	// 'on_front'        => false, // Optionally designate a field to wp-admin only
+	// 'repeatable'      => true,
+	// 'column'          => true, // Display field value in the admin post-listing columns
+) );
+]]></content>
+	<tabTrigger>ctext</tabTrigger>
+	<description>CMB2 Add a text field</description>
+	<scope>source.php</scope>
+</snippet>
