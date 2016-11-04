@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+'${1:1}' => __( '${2:Option Val 1}', 'cmb2' ),
+]]></content>
+	<tabTrigger>copt</tabTrigger>
+	<description>CMB2 Add an option field</description>
+	<scope>source.php</scope>
+</snippet>
