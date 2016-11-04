@@ -15,7 +15,7 @@ This is still very basic.
 OSX
 
 1. From the command line cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-2. Create a snippets folder
+2. Create a snippets folder and enter it
 3. Run git clone https://github.com/forbairt/SubPress.git
 
 ### Use: Example 1 - Setup a genesis child theme
