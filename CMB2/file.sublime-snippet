@@ -5,7 +5,7 @@
 \$${1:cmb}->add_field( array(
 'id'				=> \$prefix.'${2:file_name}',
 'name'				=> esc_html__( '${3:Title}', 'cmb2' ),
-'desc'				=> esc_html__( '${4:Upload an image or enter a URL}' )
+'desc'				=> esc_html__( '${4:Upload an image or enter a URL}' ),
 'type'				=> 'file',
 // Optional:
 'options' => array(
