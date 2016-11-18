@@ -9,6 +9,7 @@ add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu',
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
 ]]></content>
-	<description>g:Add support for HTML5 / Accessibility / Responsive in Genesis</description>
+    <tabTrigger>g-support</tabTrigger>
+	<description>Add support for HTML5 / Accessibility / Responsive in Genesis</description>
 	<scope>source.php</scope>
 </snippet>
