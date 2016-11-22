@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${5://true will crop image to exactly these measurements}
+add_image_size( '${1:default-name}', ${2:width in px}, $[3:height in px}100${4:, true });
+$0
+]]></content>
+    <tabTrigger>add_image_size</tabTrigger>
+	<description>Add a new image size to WordPress</description>
+	<scope>source.php</scope>
+</snippet>
